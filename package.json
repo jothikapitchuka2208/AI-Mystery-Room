@@ -1,0 +1,14 @@
+{
+  "name": "ai-mystery-room",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "start": "node server/src/server.js",
+    "build": "npm run build --prefix client"
+  }
+}
