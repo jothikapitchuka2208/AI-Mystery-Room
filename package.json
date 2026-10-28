@@ -9,6 +9,9 @@
   ],
   "scripts": {
     "start": "node server/src/server.js",
+    "dev": "npm run dev --prefix client",
+    "dev:client": "npm run dev --prefix client",
+    "dev:server": "npm run dev --prefix server",
     "build": "npm run build --prefix client"
   }
 }
